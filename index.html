@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,10 +20,11 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
 
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="haeder-container container">
         <nav class="header-nav">
           <a class="logo" href="./index.html"
@@ -55,16 +57,16 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
     <main>
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button data-modal-open class="order-btn btn" type="button">
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <section class="features">
         <div class="container">
           <h2 class="features visually-hidden">Features</h2>
@@ -75,7 +77,7 @@
                   <use href="./images/symbol-defs.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="features-subtitle subtitle">Strategy</h3>
+              <h3 class="features-subtitle title">Strategy</h3>
               <p class="features-article">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -87,7 +89,7 @@
                   <use href="./images/symbol-defs.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="features-subtitle subtitle">Punctuality</h3>
+              <h3 class="features-subtitle title">Punctuality</h3>
               <p class="features-article">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -99,7 +101,7 @@
                   <use href="./images/symbol-defs.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="features-subtitle subtitle">Diligence</h3>
+              <h3 class="features-subtitle title">Diligence</h3>
               <p class="features-article">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -111,7 +113,7 @@
                   <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="features-subtitle subtitle">Technologies</h3>
+              <h3 class="features-subtitle title">Technologies</h3>
               <p class="features-article">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -406,8 +408,8 @@
     <footer class="footer">
       <div class="footer-container container">
         <div class="footer-text">
-          <a class="logo" href="./index.html"
-            >Web<span class="footer-logo">Studio</span></a
+          <a class="footer-logo logo" href="./index.html"
+            >Web<span class="footer-logo-text">Studio</span></a
           >
           <p class="footer-article">
             Increase the flow of customers and sales for your business with
@@ -451,9 +453,15 @@
           <p class="footer-subtitle">Subscribe</p>
           <form class="footer-form">
             <label class="footer-field">
-              <input class="mail-input" type="text" name="email" placeholder="E-mail"> 
+              <input
+                class="mail-input"
+                type="text"
+                name="email"
+                placeholder="E-mail"
+              />
             </label>
-            <button class="subscribe-btn btn" type="submit">Subscribe
+            <button class="subscribe-btn btn" type="submit">
+              Subscribe
               <svg class="plane-icon" width="24" height="20">
                 <use href="./images/symbol-defs.svg#plane"></use>
               </svg>
@@ -462,7 +470,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="close-button" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -501,11 +509,16 @@
             ></textarea>
           </label>
           <label class="checkbox-label">
-            <input class="privacy-input visually-hidden" type="checkbox" name="privacy"  value="true"/>
+            <input
+              class="privacy-input visually-hidden"
+              type="checkbox"
+              name="privacy"
+              value="true"
+            />
             <span class="privacy-icon">
-             <svg class="click-icon" width="10" height="8">
-              <use href="./images/symbol-defs.svg#click"></use>
-            </svg> 
+              <svg class="click-icon" width="10" height="8">
+                <use href="./images/symbol-defs.svg#click"></use>
+              </svg>
             </span>
             I accept the terms and conditions of the
             <a class="privacy-link" href="">Privacy Policy</a>
@@ -513,7 +526,8 @@
           <button type="submit" class="submit-btn btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

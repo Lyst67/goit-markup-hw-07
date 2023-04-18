@@ -1,0 +1,125 @@
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .features-list {
+    gap: 72px 24px;
+  }
+  .features-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .features-subtitle {
+    text-align: left;
+  }
+  .team-list {
+    gap: 64px 24px;
+  }
+  .team-item {
+    flex-basis: 264px;
+  }
+  .customers-list {
+    gap: 72px 24px;
+  }
+  .customers-item {
+    flex-basis: 168px;
+  }
+  .footer-container {
+    gap: 72px 24px;
+    justify-content: flex-start;
+  }
+  .footer-logo {
+    text-align: left;
+  }
+  .footer-text {
+    max-width: 264px;
+    margin-bottom: 0;
+    margin-left: 93px;
+  }
+  .footer-subtitle {
+    text-align: left;
+  }
+  .footer-subscribe {
+    margin-left: 93px;
+  }
+  .footer-form {
+    flex-wrap: nowrap;
+    gap: 24px;
+    align-items: center;
+  }
+  .mail-input {
+    width: 264px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .features-list {
+    gap: 24px;
+  }
+  .features-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .features-thumb {
+    display: flex;
+  }
+  .features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .activity {
+    display: block;
+  }
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-list {
+    gap: 24px;
+  }
+  .team-item {
+    flex-basis: calc((100% - 72) / 4);
+  }
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers-list {
+    gap: 24px;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 120px) / 6);
+  }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-container {
+    flex-wrap: nowrap;
+    gap: 0;
+    justify-content: flex-start;
+  }
+  .footer-text {
+    margin-left: 0;
+    margin-right: 120px;
+  }
+  .footer-article {
+    margin-top: 16px;
+  }
+  .footer-subscribe {
+    margin-left: auto;
+  }
+}
