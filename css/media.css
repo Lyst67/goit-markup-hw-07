@@ -1,11 +1,22 @@
 @media screen and (min-width: 428px) {
   .container {
-    width: 428px;
+    max-width: 428px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
+  }
+  .hero {
+    min-width: 768px;
+  }
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    text-transform: none;
   }
   .features-list {
     gap: 72px 24px;
@@ -37,7 +48,6 @@
   }
   .footer-text {
     max-width: 264px;
-    margin-bottom: 0;
     margin-left: 93px;
   }
   .footer-subtitle {
@@ -55,16 +65,46 @@
     width: 264px;
     margin-bottom: 0;
   }
+  /* ======= PORTFOLIO ======= */
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .filter-list {
+    flex-wrap: nowrap;
+    max-width: 100%;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+  .filter-btn {
+    padding: 12px 24px;
+  }
+  .portfolio-list {
+    gap: 72px 24px;
+  }
+  .portfolio-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
 }
+
 @media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .hero {
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
   .features {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
-  .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
   .features-list {
     gap: 24px;
@@ -79,6 +119,9 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+  }
+  .features-article {
+    font-weight: 400;
   }
   .activity {
     display: block;
@@ -121,5 +164,19 @@
   }
   .footer-subscribe {
     margin-left: auto;
+  }
+  /* ======= PORTFOLIO ======= */
+  .portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  .filter-list {
+    margin-bottom: 72px;
+  }
+  .portfolio-list {
+    gap: 48px 24px;
+  }
+  .portfolio-item {
+    flex-basis: calc((100% - 48px) / 3);
   }
 }
