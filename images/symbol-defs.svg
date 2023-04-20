@@ -73,5 +73,8 @@
     <symbol id="plane" viewBox="0 0 32 32">
     <path d="M32.013 2.668l-32.013 15.006 10.231 3.157 15.78-12.328-12.002 13.494 0.009 0.004-0.012-0.004v7.348l5.737-5.578 7.27 2.244 5.001-23.343z"></path>
     </symbol>
+    <symbol id="hamburger-menu" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.961 29.158h42.975M1.961 15.616h42.975M1.961 2.075h42.975"></path>
+</symbol>
   </defs>
 </svg>
