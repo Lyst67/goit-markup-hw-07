@@ -13,6 +13,9 @@
         url(../images/hero-bg-tablet@2x.jpg);
     }
   }
+  .modal {
+    min-width: 392px;
+  }
 }
 
 /* ======= TABLET ======= */
@@ -20,6 +23,62 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+  .menu-open-btn {
+    display: none;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  .header-menu {
+    display: flex;
+    gap: 40px;
+    margin-left: 120px;
+  }
+  .header-link {
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    color: var(--dark-brand);
+    transition: color 250ms var(--cubic-timing);
+  }
+  .header-link:focus {
+    color: var(--pressed-state);
+  }
+  .header-link.current-page {
+    color: var(--pressed-state);
+  }
+  .current-page::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    bottom: -1px;
+    background-color: var(--pressed-state);
+  }
+  .contact {
+    display: block;
+    font-style: normal;
+  }
+  .contact-list {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header-contact {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    transition: color 250ms var(--cubic-timing);
+  }
+  .header-contact:focus {
+    color: var(--pressed-state);
   }
   .hero {
     max-width: 768px;
@@ -109,6 +168,9 @@
   .portfolio-item {
     flex-basis: calc((100% - 24px) / 2);
   }
+  .modal {
+    min-width: 408px;
+  }
 }
 
 /* ======= DESCTOP ======= */
@@ -116,6 +178,27 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+  .header-menu {
+    margin-left: 76px;
+  }
+  .header-link:hover {
+    color: var(--pressed-state);
+  }
+  .contact-list {
+    flex-direction: unset;
+    gap: 40px;
+    align-items: center;
+  }
+  .header-contact {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .header-contact:hover {
+    color: var(--pressed-state);
   }
   .hero {
     max-width: 1440px;
