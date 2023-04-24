@@ -243,6 +243,12 @@ body {
   width: 40px;
   height: 40px;
 }
+.menu-social-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
 
 /* === Hero === */
 .hero {
@@ -318,7 +324,7 @@ body {
   justify-content: center;
 }
 .team-item {
-  flex-basis: 100%;
+  flex-basis: 264px;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-background);
   box-shadow: var(--team-box-shadow);
@@ -348,8 +354,8 @@ body {
   height: 16px;
   fill: currentColor;
 }
-.team-sosial:hover,
-.team-sosial:focus {
+.team-social:hover,
+.team-social:focus {
   background-color: var(--pressed-state);
 }
 
@@ -516,7 +522,7 @@ body {
   width: 40px;
   height: 40px;
 }
-.footer-socials-icon {
+.footer-social-icon {
   display: block;
   width: 24px;
   height: 24px;
@@ -535,6 +541,7 @@ body {
   width: 100%;
 }
 .mail-input {
+  display: block;
   width: 100%;
   height: 40px;
   margin-bottom: 16px;

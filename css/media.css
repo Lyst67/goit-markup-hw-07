@@ -110,9 +110,6 @@
   .team-list {
     gap: 64px 24px;
   }
-  .team-item {
-    flex-basis: 264px;
-  }
   .customers-list {
     gap: 72px 24px;
   }
