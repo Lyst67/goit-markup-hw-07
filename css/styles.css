@@ -596,7 +596,7 @@ body {
   padding: 72px 24px 24px;
   border-radius: 4px;
   background-color: var(--modal-background);
-  transform: translate(-50%, -50%) scale(1) rotate(0);
+  transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms var(--cubic-timing);
 }
 .backdrop.is-hidden .modal {
