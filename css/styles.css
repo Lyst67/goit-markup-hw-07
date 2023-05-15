@@ -572,6 +572,9 @@ body {
 }
 
 /* === Modal Window === */
+.modal-open {
+  overflow: hidden;
+}
 .backdrop {
   position: fixed;
   top: 0;
